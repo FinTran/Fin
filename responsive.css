@@ -1,0 +1,69 @@
+@media (max-width: 641px) {
+  .row {
+    margin: 0 !important;
+  }
+  .container {
+    max-width: 100% !important;
+  }
+  .container-mobile {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .col-mobile {
+    width: 100% !important;
+  }
+  .testimonial-page {
+    padding-top: 80px !important;
+    padding-bottom: 200px!important;
+    padding-left: 40px !important;
+    padding-right: 10px !important;
+    background: #FAFAF9 !important;
+  }
+  /* Reviewers */
+  .reviewers {
+    margin-bottom: 60px !important;
+    padding:0 !important;
+  }
+  .reviewers p {
+    width: 550px;
+  }
+  /* Feedback card */
+  .feedback-card .second-card {
+    position: absolute;
+    bottom: 0 !important;
+    width: 360px;
+    height: 182px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 1px 10px 10px 20px rgba(82,82,90,0.01);
+    padding: 30px;
+    margin-top: 12px;
+  }
+  .feedback-card {
+    position: unset !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  .feedback-card .first-card {
+    position:unset !important;
+    float: right;
+    width: 360px;
+    height: 182px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 1px 10px 10px 20px rgba(82,82,90,0.01);
+    padding: 30px;
+    margin-bottom: 28px !important;
+    margin-right: 16px !important;
+  }
+  .feedback-card .second-card {
+    position:unset !important;
+    float: left;
+    width: 360px;
+    height: 182px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 1px 10px 10px 20px rgba(82,82,90,0.01);
+    padding: 30px;
+  }
+}

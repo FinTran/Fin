@@ -1,0 +1,123 @@
+/* General */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+.yellow-star {
+  color: #F5C044;
+}
+.grey-star {
+  color: #D4D4D8;
+}
+.testimonial-page {
+  padding: 120px 40px;
+  background: #FAFAF9;
+}
+/* Reviewers */
+.reviewers .star {
+  background: #F5C044;
+  width: 44px;
+  height: 44px;
+  border-radius: 34px;
+  position: relative;
+  margin-bottom: 16px;
+}
+.reviewers h1 {
+  font-family: "Sora", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.reviewers p {
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  color: #52525A;
+  margin-bottom: 26px;
+}
+.reviewers img {
+  height: 60px;
+  position: absolute;
+  top: -8px;
+  right: 2px;
+}
+.reviewers ul {
+  padding: 0;
+  margin: 0;
+}
+.reviewers ul li {
+  list-style: none;
+  font-size: 14px;
+  font-family: "Sora", sans-serif;
+  color: #52525A;
+}
+.reviewers ul li span {
+  line-height: 36px;
+  padding-left: 8px;
+}
+.reviewers ul li i {
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  height: 17px;
+  width: 17px;
+  border-radius: 10px;
+  bottom: -3px;
+  background: rgb(76, 161, 84, 0.9);
+}
+.reviewers ul li i::before {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+/* Feedback card */
+.feedback-card {
+  position: relative;
+}
+.feedback-card .first-card {
+  position: absolute;
+  right: 0;
+  width: 360px;
+  height: 182px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 1px 10px 10px 20px rgba(82,82,90,0.01);
+  padding: 30px;
+}
+.feedback-card img {
+  width: 100px;
+  padding-right: 12px;
+}
+.row-1 {
+  margin-bottom: 16px;
+}
+.row-1 i {
+  padding-left: 4px;
+  font-size: 18px;
+}
+.row-2 span {
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.row-2 p {
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+  color: #52525A;
+  margin-top: 12px;
+}
+.feedback-card .second-card {
+  position: absolute;
+  bottom: 0;
+  width: 360px;
+  height: 182px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 1px 10px 10px 20px rgba(82,82,90,0.01);
+  padding: 30px;
+  margin-top: 12px;
+}
